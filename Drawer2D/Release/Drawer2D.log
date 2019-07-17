@@ -1,0 +1,7 @@
+﻿  Drawer2D.vcxproj -> C:\PSYFRACS\01.03.18 - New Sound\Release\Drawer2D.exe
+BSCMAKE : warning BK4503: minor error in .SBR file 'Release\Controller.sbr' ignored
+BSCMAKE : warning BK4503: minor error in .SBR file 'Release\Drawer2D.sbr' ignored
+BSCMAKE : warning BK4503: minor error in .SBR file 'Release\Interfaces.sbr' ignored
+BSCMAKE : warning BK4503: minor error in .SBR file 'Release\Renderer.sbr' ignored
+BSCMAKE : warning BK4503: minor error in .SBR file 'Release\Signal.sbr' ignored
+BSCMAKE : warning BK4503: minor error in .SBR file 'Release\User.sbr' ignored

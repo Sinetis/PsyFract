@@ -1,0 +1,605 @@
+﻿  Renderer.cpp
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(59): warning C4005: 'D2DERR_WRONG_STATE': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54183): note: see previous definition of 'D2DERR_WRONG_STATE'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(64): warning C4005: 'D2DERR_NOT_INITIALIZED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54192): note: see previous definition of 'D2DERR_NOT_INITIALIZED'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(69): warning C4005: 'D2DERR_UNSUPPORTED_OPERATION': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54201): note: see previous definition of 'D2DERR_UNSUPPORTED_OPERATION'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(74): warning C4005: 'D2DERR_SCANNER_FAILED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54210): note: see previous definition of 'D2DERR_SCANNER_FAILED'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(79): warning C4005: 'D2DERR_SCREEN_ACCESS_DENIED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54219): note: see previous definition of 'D2DERR_SCREEN_ACCESS_DENIED'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(84): warning C4005: 'D2DERR_DISPLAY_STATE_INVALID': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54228): note: see previous definition of 'D2DERR_DISPLAY_STATE_INVALID'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(89): warning C4005: 'D2DERR_ZERO_VECTOR': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54237): note: see previous definition of 'D2DERR_ZERO_VECTOR'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(97): warning C4005: 'D2DERR_INTERNAL_ERROR': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54246): note: see previous definition of 'D2DERR_INTERNAL_ERROR'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(103): warning C4005: 'D2DERR_DISPLAY_FORMAT_NOT_SUPPORTED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54255): note: see previous definition of 'D2DERR_DISPLAY_FORMAT_NOT_SUPPORTED'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(108): warning C4005: 'D2DERR_INVALID_CALL': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54264): note: see previous definition of 'D2DERR_INVALID_CALL'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(113): warning C4005: 'D2DERR_NO_HARDWARE_DEVICE': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54273): note: see previous definition of 'D2DERR_NO_HARDWARE_DEVICE'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(119): warning C4005: 'D2DERR_RECREATE_TARGET': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54282): note: see previous definition of 'D2DERR_RECREATE_TARGET'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(124): warning C4005: 'D2DERR_TOO_MANY_SHADER_ELEMENTS': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54291): note: see previous definition of 'D2DERR_TOO_MANY_SHADER_ELEMENTS'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(129): warning C4005: 'D2DERR_SHADER_COMPILE_FAILED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54300): note: see previous definition of 'D2DERR_SHADER_COMPILE_FAILED'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(134): warning C4005: 'D2DERR_MAX_TEXTURE_SIZE_EXCEEDED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54309): note: see previous definition of 'D2DERR_MAX_TEXTURE_SIZE_EXCEEDED'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(139): warning C4005: 'D2DERR_UNSUPPORTED_VERSION': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54318): note: see previous definition of 'D2DERR_UNSUPPORTED_VERSION'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(144): warning C4005: 'D2DERR_BAD_NUMBER': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54327): note: see previous definition of 'D2DERR_BAD_NUMBER'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(149): warning C4005: 'D2DERR_WRONG_FACTORY': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54336): note: see previous definition of 'D2DERR_WRONG_FACTORY'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(154): warning C4005: 'D2DERR_LAYER_ALREADY_IN_USE': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54345): note: see previous definition of 'D2DERR_LAYER_ALREADY_IN_USE'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(159): warning C4005: 'D2DERR_POP_CALL_DID_NOT_MATCH_PUSH': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54354): note: see previous definition of 'D2DERR_POP_CALL_DID_NOT_MATCH_PUSH'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(164): warning C4005: 'D2DERR_WRONG_RESOURCE_DOMAIN': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54363): note: see previous definition of 'D2DERR_WRONG_RESOURCE_DOMAIN'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(169): warning C4005: 'D2DERR_PUSH_POP_UNBALANCED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54372): note: see previous definition of 'D2DERR_PUSH_POP_UNBALANCED'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(174): warning C4005: 'D2DERR_RENDER_TARGET_HAS_LAYER_OR_CLIPRECT': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54381): note: see previous definition of 'D2DERR_RENDER_TARGET_HAS_LAYER_OR_CLIPRECT'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(179): warning C4005: 'D2DERR_INCOMPATIBLE_BRUSH_TYPES': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54390): note: see previous definition of 'D2DERR_INCOMPATIBLE_BRUSH_TYPES'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(184): warning C4005: 'D2DERR_WIN32_ERROR': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54399): note: see previous definition of 'D2DERR_WIN32_ERROR'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(189): warning C4005: 'D2DERR_TARGET_NOT_GDI_COMPATIBLE': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54408): note: see previous definition of 'D2DERR_TARGET_NOT_GDI_COMPATIBLE'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(194): warning C4005: 'D2DERR_TEXT_EFFECT_IS_WRONG_TYPE': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54417): note: see previous definition of 'D2DERR_TEXT_EFFECT_IS_WRONG_TYPE'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(201): warning C4005: 'D2DERR_TEXT_RENDERER_NOT_RELEASED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54426): note: see previous definition of 'D2DERR_TEXT_RENDERER_NOT_RELEASED'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(206): warning C4005: 'D2DERR_EXCEEDS_MAX_BITMAP_SIZE': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54435): note: see previous definition of 'D2DERR_EXCEEDS_MAX_BITMAP_SIZE'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(12): warning C4005: 'DXGI_STATUS_OCCLUDED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53655): note: see previous definition of 'DXGI_STATUS_OCCLUDED'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(13): warning C4005: 'DXGI_STATUS_CLIPPED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53664): note: see previous definition of 'DXGI_STATUS_CLIPPED'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(14): warning C4005: 'DXGI_STATUS_NO_REDIRECTION': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53673): note: see previous definition of 'DXGI_STATUS_NO_REDIRECTION'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(15): warning C4005: 'DXGI_STATUS_NO_DESKTOP_ACCESS': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53682): note: see previous definition of 'DXGI_STATUS_NO_DESKTOP_ACCESS'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(16): warning C4005: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53691): note: see previous definition of 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(17): warning C4005: 'DXGI_STATUS_MODE_CHANGED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53700): note: see previous definition of 'DXGI_STATUS_MODE_CHANGED'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(18): warning C4005: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53709): note: see previous definition of 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(21): warning C4005: 'DXGI_ERROR_INVALID_CALL': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53724): note: see previous definition of 'DXGI_ERROR_INVALID_CALL'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(22): warning C4005: 'DXGI_ERROR_NOT_FOUND': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53733): note: see previous definition of 'DXGI_ERROR_NOT_FOUND'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(23): warning C4005: 'DXGI_ERROR_MORE_DATA': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53742): note: see previous definition of 'DXGI_ERROR_MORE_DATA'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(24): warning C4005: 'DXGI_ERROR_UNSUPPORTED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53751): note: see previous definition of 'DXGI_ERROR_UNSUPPORTED'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(25): warning C4005: 'DXGI_ERROR_DEVICE_REMOVED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53760): note: see previous definition of 'DXGI_ERROR_DEVICE_REMOVED'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(26): warning C4005: 'DXGI_ERROR_DEVICE_HUNG': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53769): note: see previous definition of 'DXGI_ERROR_DEVICE_HUNG'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(27): warning C4005: 'DXGI_ERROR_DEVICE_RESET': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53779): note: see previous definition of 'DXGI_ERROR_DEVICE_RESET'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(28): warning C4005: 'DXGI_ERROR_WAS_STILL_DRAWING': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53788): note: see previous definition of 'DXGI_ERROR_WAS_STILL_DRAWING'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(29): warning C4005: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53798): note: see previous definition of 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(30): warning C4005: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53807): note: see previous definition of 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(31): warning C4005: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53817): note: see previous definition of 'DXGI_ERROR_DRIVER_INTERNAL_ERROR'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(32): warning C4005: 'DXGI_ERROR_NONEXCLUSIVE': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53826): note: see previous definition of 'DXGI_ERROR_NONEXCLUSIVE'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(33): warning C4005: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53835): note: see previous definition of 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(34): warning C4005: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53845): note: see previous definition of 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(35): warning C4005: 'DXGI_ERROR_REMOTE_OUTOFMEMORY': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53854): note: see previous definition of 'DXGI_ERROR_REMOTE_OUTOFMEMORY'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d10.h(608): warning C4005: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54094): note: see previous definition of 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d10.h(609): warning C4005: 'D3D10_ERROR_FILE_NOT_FOUND': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54103): note: see previous definition of 'D3D10_ERROR_FILE_NOT_FOUND'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dwrite.h(4962): warning C4005: 'DWRITE_E_FILEFORMAT': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54602): note: see previous definition of 'DWRITE_E_FILEFORMAT'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dwrite.h(4967): warning C4005: 'DWRITE_E_UNEXPECTED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54611): note: see previous definition of 'DWRITE_E_UNEXPECTED'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dwrite.h(4972): warning C4005: 'DWRITE_E_NOFONT': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54620): note: see previous definition of 'DWRITE_E_NOFONT'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dwrite.h(4978): warning C4005: 'DWRITE_E_FILENOTFOUND': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54629): note: see previous definition of 'DWRITE_E_FILENOTFOUND'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dwrite.h(4983): warning C4005: 'DWRITE_E_FILEACCESS': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54638): note: see previous definition of 'DWRITE_E_FILEACCESS'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dwrite.h(4988): warning C4005: 'DWRITE_E_FONTCOLLECTIONOBSOLETE': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54647): note: see previous definition of 'DWRITE_E_FONTCOLLECTIONOBSOLETE'
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dwrite.h(4993): warning C4005: 'DWRITE_E_ALREADYREGISTERED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54656): note: see previous definition of 'DWRITE_E_ALREADYREGISTERED'
+c:\psyfracs\01.03.18 - new sound\drawer2d\wavplayer.h(116): warning C4129: 'c': unrecognized character escape sequence
+c:\psyfracs\01.03.18 - new sound\drawer2d\wavplayer.h(253): warning C4018: '<': signed/unsigned mismatch
+c:\psyfracs\01.03.18 - new sound\drawer2d\wavplayer.h(260): warning C4018: '<': signed/unsigned mismatch
+c:\psyfracs\01.03.18 - new sound\drawer2d\constants.h(52): warning C4091: 'static ': ignored on left of 'Misc' when no variable is declared
+c:\psyfracs\01.03.18 - new sound\drawer2d\constants.h(32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\constants.h(34): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\complex.h(294): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\complex.h(360): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\complex.h(511): warning C4091: 'static ': ignored on left of 'FFT' when no variable is declared
+c:\psyfracs\01.03.18 - new sound\drawer2d\complex.h(472): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\complex.h(488): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\complex.h(500): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\renderer.h(222): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\renderer.h(223): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\renderer.h(229): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\renderer.h(230): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\renderer.h(302): warning C4018: '<': signed/unsigned mismatch
+c:\psyfracs\01.03.18 - new sound\drawer2d\renderer.h(323): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\renderer.h(326): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\renderer.h(334): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\signal.h(78): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\signal.h(84): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\signal.h(107): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\signal.h(144): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\signal.h(144): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\signal.h(171): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(146): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(147): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(148): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(149): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(150): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(169): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(168): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(167): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(173): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(172): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(175): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(174): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(183): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(182): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(185): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(184): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(188): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(187): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(190): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(189): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(194): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(193): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(196): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(195): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(204): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(203): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(206): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(205): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(209): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(208): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(211): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(210): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(216): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(215): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(218): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(217): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(226): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(225): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(228): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(227): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(232): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(231): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(234): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(233): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(294): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(293): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(292): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(299): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(298): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(302): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(301): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(306): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(305): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(309): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(308): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(313): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(312): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(316): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(315): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(323): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(322): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(326): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(325): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(330): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(329): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(333): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(332): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(337): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(336): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(340): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(339): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(373): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(374): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(378): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(379): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(403): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(404): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(405): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(406): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(423): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(448): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(451): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(454): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(458): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(461): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(477): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(478): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(479): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(485): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(486): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(488): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(494): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(495): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(501): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(502): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(505): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(506): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(508): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(509): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(515): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(516): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(519): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(520): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(522): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(523): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(530): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(531): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(532): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(535): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(536): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(538): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(539): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(542): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(543): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(548): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(549): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(551): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(552): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(554): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(559): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(560): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(562): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(563): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(592): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(593): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(595): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(602): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(603): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(605): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(606): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(616): warning C4244: 'initializing': conversion from 'clock_t' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(623): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(651): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(653): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(655): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(658): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(661): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(680): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(681): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(683): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(686): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(687): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(693): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(694): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(697): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(698): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(700): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(701): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(704): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(705): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(706): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(709): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(710): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(712): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(713): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(716): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(717): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(722): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(723): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(725): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(726): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(729): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(734): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(735): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(737): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(738): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\geometric.h(764): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(138): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(144): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(149): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(155): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(237): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(242): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(243): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(250): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(255): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(257): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(264): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(281): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(284): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(287): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(290): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(293): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(312): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(312): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(314): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(298): warning C4101: 'mid': unreferenced local variable
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(370): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(375): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(376): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(383): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(388): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(389): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(391): warning C4244: '+=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(405): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(408): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(411): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(414): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(417): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(438): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(445): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(450): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(451): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(453): warning C4244: '+=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(460): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(462): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(466): warning C4244: '/=': conversion from 'double' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(468): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(474): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(476): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(480): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(481): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(483): warning C4244: '+=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(488): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(492): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(495): warning C4244: '+=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(505): warning C4244: '=': conversion from 'long' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(508): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(512): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(515): warning C4244: '+=': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(558): warning C4305: 'argument': truncation from 'double' to 'FLOAT'
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(563): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(564): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(567): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\frequency.h(568): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(112): warning C4305: '*=': truncation from 'double' to 'float'
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(115): warning C4305: '*=': truncation from 'double' to 'float'
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(118): warning C4305: '*=': truncation from 'double' to 'float'
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(121): warning C4305: '*=': truncation from 'double' to 'float'
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(152): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(172): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(173): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(174): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(175): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(180): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(181): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(186): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(187): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(188): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(189): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(189): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(194): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(195): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(196): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(197): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(202): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(203): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(204): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(205): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(210): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(211): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(212): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(213): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(227): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(228): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(237): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(245): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(246): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(298): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(229): warning C4101: 'c': unreferenced local variable
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(317): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(318): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(326): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(319): warning C4101: 'c': unreferenced local variable
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(399): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(400): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\ifsystem.h(401): warning C4101: 'c': unreferenced local variable
+c:\psyfracs\01.03.18 - new sound\drawer2d\lsystem.h(61): warning C4065: switch statement contains 'default' but no 'case' labels
+c:\psyfracs\01.03.18 - new sound\drawer2d\lsystem.h(159): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\lsystem.h(168): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\lsystem.h(186): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\lsystem.h(158): warning C4101: 'c': unreferenced local variable
+c:\psyfracs\01.03.18 - new sound\drawer2d\turtlefrac.h(52): warning C4065: switch statement contains 'default' but no 'case' labels
+c:\psyfracs\01.03.18 - new sound\drawer2d\turtlefrac.h(87): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\turtlefrac.h(95): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\turtlefrac.h(96): warning C4305: 'argument': truncation from 'double' to 'FLOAT'
+c:\psyfracs\01.03.18 - new sound\drawer2d\turtlefrac.h(101): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\turtlefrac.h(106): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\turtlefrac.h(108): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\turtlefrac.h(86): warning C4101: 'c': unreferenced local variable
+c:\psyfracs\01.03.18 - new sound\drawer2d\turtlefrac.h(126): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\turtlefrac.h(126): warning C4305: 'argument': truncation from 'double' to 'FLOAT'
+c:\psyfracs\01.03.18 - new sound\drawer2d\turtlefrac.h(138): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\turtlefrac.h(139): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\turtlefrac.h(142): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\turtlefrac.h(143): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(138): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(147): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(228): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(257): warning C4101: 'info': unreferenced local variable
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(226): warning C4101: 'i': unreferenced local variable
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(295): warning C4244: '=': conversion from 'clock_t' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(318): warning C4244: 'argument': conversion from 'double' to 'DWORD', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(322): warning C4244: '=': conversion from 'clock_t' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(361): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(362): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(328): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(330): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(331): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(332): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(333): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(334): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(335): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(336): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(337): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(338): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(339): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(340): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(341): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(342): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(343): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(344): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(345): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(346): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(347): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(348): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(349): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(350): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(351): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(354): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(355): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(356): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(357): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(387): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(387): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(487): warning C4305: '*=': truncation from 'double' to 'float'
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(489): warning C4305: '*=': truncation from 'double' to 'float'
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(659): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(662): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(671): warning C4305: '*=': truncation from 'double' to 'float'
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(674): warning C4305: '*=': truncation from 'double' to 'float'
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(679): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(679): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(684): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(684): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(784): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(819): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(820): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(821): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(822): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(823): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(824): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(825): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(826): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(929): warning C4838: conversion from 'int' to '::size_t' requires a narrowing conversion
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(959): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(960): warning C4244: '=': conversion from 'clock_t' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(1009): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(1014): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(1031): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(1032): warning C4244: '=': conversion from 'clock_t' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(1072): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(1146): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(1145): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(1150): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(1152): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(1156): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(1158): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(1173): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(1174): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(1175): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(1176): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\openclfractal.h(1178): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\hlsl.h(146): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\hlsl.h(155): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\hlsl.h(467): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\psyfracs\01.03.18 - new sound\drawer2d\hlsl.h(468): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\psyfracs\01.03.18 - new sound\drawer2d\hlsl.h(752): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\psyfracs\01.03.18 - new sound\drawer2d\hlsl.h(753): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\psyfracs\01.03.18 - new sound\drawer2d\hlsl.h(1037): warning C4244: '=': conversion from 'clock_t' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\hlsl.h(1051): warning C4244: 'argument': conversion from 'double' to 'DWORD', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\hlsl.h(1055): warning C4244: '=': conversion from 'clock_t' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\hlsl.h(1084): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\hlsl.h(1085): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\hlsl.h(1048): warning C4065: switch statement contains 'default' but no 'case' labels
+c:\psyfracs\01.03.18 - new sound\drawer2d\hlsl.h(1061): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\hlsl.h(1063): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\hlsl.h(1064): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\hlsl.h(1065): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\hlsl.h(1066): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\hlsl.h(1067): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\hlsl.h(1068): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\hlsl.h(1069): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\hlsl.h(1070): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\hlsl.h(1071): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\hlsl.h(1072): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\hlsl.h(1073): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\hlsl.h(1074): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\hlsl.h(1075): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\hlsl.h(1076): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\hlsl.h(1079): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\hlsl.h(1080): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\hlsl.h(1108): warning C4060: switch statement contains no 'case' or 'default' labels
+c:\psyfracs\01.03.18 - new sound\drawer2d\hlsl.h(1198): warning C4305: '*=': truncation from 'double' to 'float'
+c:\psyfracs\01.03.18 - new sound\drawer2d\hlsl.h(1200): warning C4305: '*=': truncation from 'double' to 'float'
+c:\psyfracs\01.03.18 - new sound\drawer2d\hlsl.h(1363): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\hlsl.h(1366): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\hlsl.h(1375): warning C4305: '*=': truncation from 'double' to 'float'
+c:\psyfracs\01.03.18 - new sound\drawer2d\hlsl.h(1378): warning C4305: '*=': truncation from 'double' to 'float'
+c:\psyfracs\01.03.18 - new sound\drawer2d\renderer.cpp(62): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\renderer.cpp(69): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\renderer.cpp(167): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\renderer.cpp(224): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\renderer.cpp(225): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\renderer.cpp(237): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\renderer.cpp(238): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\renderer.cpp(239): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\renderer.cpp(240): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\psyfracs\01.03.18 - new sound\drawer2d\renderer.cpp(251): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: see declaration of 'swprintf'
+c:\psyfracs\01.03.18 - new sound\drawer2d\renderer.cpp(278): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+Controller.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  Drawer2D.vcxproj -> C:\PSYFRACS\01.03.18 - New Sound\Debug\Drawer2D.exe
