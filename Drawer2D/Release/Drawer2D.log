@@ -1,7 +1,1 @@
-﻿  Drawer2D.vcxproj -> C:\PSYFRACS\01.03.18 - New Sound\Release\Drawer2D.exe
-BSCMAKE : warning BK4503: minor error in .SBR file 'Release\Controller.sbr' ignored
-BSCMAKE : warning BK4503: minor error in .SBR file 'Release\Drawer2D.sbr' ignored
-BSCMAKE : warning BK4503: minor error in .SBR file 'Release\Interfaces.sbr' ignored
-BSCMAKE : warning BK4503: minor error in .SBR file 'Release\Renderer.sbr' ignored
-BSCMAKE : warning BK4503: minor error in .SBR file 'Release\Signal.sbr' ignored
-BSCMAKE : warning BK4503: minor error in .SBR file 'Release\User.sbr' ignored
+﻿C:\Users\Анатолий\Documents\GitHub\PsyFract\Drawer2D\Drawer2D.vcxproj(58,5): error MSB4019: The imported project "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\BuildCustomizations\CUDA 6.5.props" was not found. Confirm that the expression in the Import declaration "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\\BuildCustomizations\CUDA 6.5.props" is correct, and that the file exists on disk.
