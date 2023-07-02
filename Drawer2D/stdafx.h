@@ -16,6 +16,7 @@
 #include <thread>
 #include <vector>
 #include <list>
+#include <functional>
 
 // C RunTime Header Files
 #include <stdlib.h>

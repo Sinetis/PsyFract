@@ -12,6 +12,11 @@
 
 #define fore(i, n) for(i = 0; i < n; i++)
 
+namespace DXObjects
+{
+	const V4 DEFAULT_COLOR = V4(0, 0, 0, 1);
+};
+
 struct SimpleVertex
 {
 	V3 Pos;
@@ -37,27 +42,21 @@ struct Triangle
 	{}
 };
 
-namespace DXObjects
-{
-	const V4 DEFAULT_COLOR = V4(0, 0, 0, 1);
-
-};
-
 ///<summary>
 ///Description
 ///</summary>
 ///<param name="a"><b>Ashechka</b></param>
 ///<param name="b">Beshechka</param>
 ///<returns>description</returns>  
-int func(int a, int b)
-{
-	int x = func(a, b);
-}
+//int func(int a, int b)
+//{
+//	int x = func(a, b);
+//}
 
 class Object
 {
 protected:
-	SimpleVertex* vertexes;
+	SimpleVertex* vertices;
 	int numV;
 
 	Triangle* triangles;
@@ -77,8 +76,8 @@ protected:
 public:
 	~Object()
 	{
-		if (vertexes != NULL)
-			delete[] vertexes;
+		if (vertices != NULL)
+			delete[] vertices;
 		if (triangles != NULL)
 			delete[] triangles;
 	}
@@ -96,7 +95,7 @@ public:
 #pragma omp parallel for private(i)
 		fore(i, numV)
 		{
-			vertexes[i].Pos += newPosition - pos;
+			vertices[i].Pos += newPosition - pos;
 		}
 		pos = newPosition;
 		return this;
@@ -130,8 +129,8 @@ public:
 #pragma omp parallel for private(i)
 		fore(i, numV)
 		{
-			D3DXVec3TransformCoord(&vertexes[i].Pos, &vertexes[i].Pos, rM);
-			D3DXVec3TransformCoord(&vertexes[i].Normal, &vertexes[i].Normal, rM);
+			D3DXVec3TransformCoord(&vertices[i].Pos, &vertices[i].Pos, rM);
+			D3DXVec3TransformCoord(&vertices[i].Normal, &vertices[i].Normal, rM);
 		}
 		return this;
 	}
@@ -145,8 +144,8 @@ public:
 #pragma omp parallel for private(i)
 		fore(i, numV)
 		{
-			D3DXVec3TransformCoord(&vertexes[i].Pos, &vertexes[i].Pos, rM);
-			D3DXVec3TransformCoord(&vertexes[i].Normal, &vertexes[i].Normal, rM);
+			D3DXVec3TransformCoord(&vertices[i].Pos, &vertices[i].Pos, rM);
+			D3DXVec3TransformCoord(&vertices[i].Normal, &vertices[i].Normal, rM);
 		}
 		return this;
 	}
@@ -160,8 +159,8 @@ public:
 #pragma omp parallel for private(i)
 		fore(i, numV)
 		{
-			D3DXVec3TransformCoord(&vertexes[i].Pos, &vertexes[i].Pos, rM);
-			D3DXVec3TransformCoord(&vertexes[i].Normal, &vertexes[i].Normal, rM);
+			D3DXVec3TransformCoord(&vertices[i].Pos, &vertices[i].Pos, rM);
+			D3DXVec3TransformCoord(&vertices[i].Normal, &vertices[i].Normal, rM);
 		}
 		return this;
 	}
@@ -172,9 +171,9 @@ public:
 #pragma omp parallel for private(i)
 		fore(i, numV)
 		{
-			vertexes[i].Pos.x *= axes.x;
-			vertexes[i].Pos.y *= axes.y;
-			vertexes[i].Pos.z *= axes.z;
+			vertices[i].Pos.x *= axes.x;
+			vertices[i].Pos.y *= axes.y;
+			vertices[i].Pos.z *= axes.z;
 		}
 	}
 	Object* ScaleAroundCenter(V3 axes)
@@ -183,11 +182,11 @@ public:
 #pragma omp parallel for private(i)
 		fore(i, numV)
 		{
-			vertexes[i].Pos -= center;
-			vertexes[i].Pos.x *= axes.x;
-			vertexes[i].Pos.y *= axes.y;
-			vertexes[i].Pos.z *= axes.z;
-			vertexes[i].Pos += center;
+			vertices[i].Pos -= center;
+			vertices[i].Pos.x *= axes.x;
+			vertices[i].Pos.y *= axes.y;
+			vertices[i].Pos.z *= axes.z;
+			vertices[i].Pos += center;
 		}
 		return this;
 	}
@@ -206,7 +205,7 @@ private:
 
 class Plane: public Object
 {
-	//SimpleVertex* vertexes;
+	//SimpleVertex* vertices;
 	//int numV;
 	//Triangle* triangles;
 	//int numT;
@@ -227,7 +226,7 @@ public:
 		this->color = color;
 
 		numV = (n + 1)*(m + 1);
-		vertexes = new SimpleVertex[numV];
+		vertices = new SimpleVertex[numV];
 
 		int nm = n * m;
 		numT = nm * 2;
@@ -240,12 +239,12 @@ public:
 			for (int j = 0; j <= n; j++)
 			{
 				k = i*(n + 1) + j;
-				vertexes[k].Pos = V3(
+				vertices[k].Pos = V3(
 					i*w - size.x/2, 
 					j*h - size.y/2, 
 					pos.z);
-				vertexes[k].Normal = V3(0, 0, 1);
-				vertexes[k].Color = color;
+				vertices[k].Normal = V3(0, 0, 1);
+				vertices[k].Color = color;
 
 				if (i == m || j == n)
 					continue;

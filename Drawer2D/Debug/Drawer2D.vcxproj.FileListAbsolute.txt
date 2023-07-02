@@ -1,0 +1,1 @@
+C:\_Projects\Unity\PsyFract\Drawer2D\Debug\Drawer2D.vcxproj.CopyComplete

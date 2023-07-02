@@ -296,8 +296,8 @@ class Turtle
 				if (j == num)
 					T += AXIOM[i];
 			}
-			//if (AXIOM != 0)
-			//	delete []AXIOM;
+			if (AXIOM != NULL)
+				delete []AXIOM;
 			WCHAR* temp = new WCHAR[T.length()];
 			for (int i = 0; i < (T.length()); i++)
 				temp[i] = T[i];

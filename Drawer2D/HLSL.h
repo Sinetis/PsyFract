@@ -313,7 +313,7 @@ public:
 		g_pd3dDevice->IASetInputLayout(g_pVertexLayout);
 
 		// Создаём буффер вершин
-		SimpleVertex vertices[] =
+		D3DXVECTOR3 vertices[] =
 		{
 			D3DXVECTOR3(-1, 1, -1), D3DXVECTOR3(0, 1, 0), D3DXVECTOR4(1,0,0,1),
 			D3DXVECTOR3(1, 1, -1), D3DXVECTOR3(0, 1, 0), D3DXVECTOR4(1,0,0,1),
@@ -600,7 +600,7 @@ public:
 		g_pd3dDevice->IASetInputLayout(g_pVertexLayout);
 
 		// Создаём буффер вершин
-		SimpleVertex vertices[] =
+		D3DXVECTOR3 vertices[] =
 		{
 			D3DXVECTOR3(-1, 1, -1), D3DXVECTOR3(0, 1, 0), D3DXVECTOR4(1,0,0,1),
 			D3DXVECTOR3(1, 1, -1), D3DXVECTOR3(0, 1, 0), D3DXVECTOR4(1,0,0,1),
@@ -875,7 +875,7 @@ public:
 		g_pd3dDevice->IASetInputLayout(g_pVertexLayout);
 
 		// Создаём буффер вершин
-		SimpleVertex vertices[] =
+		D3DXVECTOR3 vertices[] =
 		{
 			D3DXVECTOR3(-1, 1, -1), D3DXVECTOR3(0, 1, 0), D3DXVECTOR4(1,0,0,1),
 			D3DXVECTOR3(1, 1, -1), D3DXVECTOR3(0, 1, 0), D3DXVECTOR4(1,0,0,1),
